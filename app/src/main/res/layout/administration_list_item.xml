@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    style="@style/RecyclerViewLight"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textViewAdministrationFIO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        style="@style/MyTextView"
+        android:text="ФИО:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAdministrationPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="@style/MyTextView"
+        android:text="Должность:"
+        app:layout_constraintStart_toStartOf="@+id/textViewAdministrationFIO"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAdministrationFIO" />
+</androidx.constraintlayout.widget.ConstraintLayout>

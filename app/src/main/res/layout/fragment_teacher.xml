@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/RecyclerViewLight"
+    tools:context=".TeacherFragment">
+    <TextView
+        android:id="@+id/textViewTeacherFragmentDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="24dp"
+        android:text="Описание"
+        style="@style/MyTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeacherFragmentSpecialization" />
+
+    <TextView
+        android:id="@+id/textViewTeacherFragmentSpecialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        style="@style/MyTextView"
+        android:text="Специальность:"
+        app:layout_constraintStart_toStartOf="@+id/textViewTeacherFragmentThirdName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeacherFragmentThirdName" />
+
+    <TextView
+        android:id="@+id/textViewTeacherFragmentSecondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        style="@style/MyTextView"
+        android:text="Фамилия:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewTeacherFragmentFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        style="@style/MyTextView"
+        android:text="Имя:"
+        app:layout_constraintStart_toStartOf="@+id/textViewTeacherFragmentSecondName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeacherFragmentSecondName" />
+
+    <TextView
+        android:id="@+id/textViewTeacherFragmentThirdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        style="@style/MyTextView"
+        android:text="Отчество:"
+        app:layout_constraintStart_toStartOf="@+id/textViewTeacherFragmentFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeacherFragmentFirstName" />
+</androidx.constraintlayout.widget.ConstraintLayout>

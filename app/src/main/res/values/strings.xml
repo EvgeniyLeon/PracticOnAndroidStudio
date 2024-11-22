@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">evgeny_practic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="teacher">Учителя</string>
+    <string name="administrator">Администрация</string>
+    <string name="spec">Специлизация</string>
+    <string name="college">Техникум</string>
+    <string name="collegeinfo">Информация о техникуме</string>
+    <string name="collegemaininfo">Орский нефтяной техникум имени Героя Советского Союза В. А. Сорокина</string>
+    <string name="collegerate">★★★★☆ Рейтинг 4,3\n
+                165 оценок</string>
+    <string name="collegelastinfo">Открыто до 19:00\n
+                +7 (3537) 21-66-29\n
+                Адрес - просп. Ленина, 81/29, микрорайон Новый город</string>
+</resources>

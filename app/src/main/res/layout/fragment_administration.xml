@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/RecyclerViewLight"
+    tools:context=".AdministrationFragment">
+
+    <TextView
+        android:id="@+id/textViewAdministrationFragmentDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        style="@style/MyTextView"
+        android:layout_marginEnd="24dp"
+        android:text="Описание"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAdministrationFragmentPost" />
+
+    <TextView
+        android:id="@+id/textViewAdministrationFragmentPost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/MyTextView"
+        android:layout_marginTop="33dp"
+        android:text="Должность:"
+        app:layout_constraintStart_toStartOf="@+id/textViewAdministrationFragmentThirdName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAdministrationFragmentThirdName" />
+
+    <TextView
+        android:id="@+id/textViewAdministrationFragmentSecondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        style="@style/MyTextView"
+        android:text="Фамилия:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewAdministrationFragmentFirstName"
+        app:layout_constraintStart_toStartOf="@+id/textViewAdministrationFragmentSecondName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAdministrationFragmentSecondName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        style="@style/MyTextView"
+        android:text="Имя:" />
+
+    <TextView
+        android:id="@+id/textViewAdministrationFragmentThirdName"
+        app:layout_constraintStart_toStartOf="@+id/textViewAdministrationFragmentFirstName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewAdministrationFragmentFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        style="@style/MyTextView"
+        android:text="Отчество:" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

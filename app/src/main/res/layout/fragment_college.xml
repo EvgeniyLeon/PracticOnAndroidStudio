@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/RecyclerViewLight"
+    tools:context=".CollegeFragment">
+
+    <TextView
+        android:id="@+id/textViewCollegeInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        style="@style/MyTextView"
+        android:text="Информация о техникуме" />
+
+    <TextView
+        android:id="@+id/textViewCollegeMainInfo"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="1"
+        android:gravity="center|top"
+        style="@style/MyTextView"
+        android:text="MainInfo"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewCollegeRate"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1"
+        style="@style/MyTextView"
+        android:text="TextView"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textViewCollegeLastInfo"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_weight="1"
+        android:text="TextView"
+        style="@style/MyTextView"
+        android:textSize="16sp"
+        android:textStyle="italic" />
+
+    <com.yandex.mapkit.mapview.MapView
+        android:id="@+id/mapview"
+        android:layout_width="match_parent"
+        android:layout_height="454dp" />
+
+</LinearLayout>
